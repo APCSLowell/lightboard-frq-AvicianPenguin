@@ -33,7 +33,7 @@ public class LightBoard
       int countLights = 0;
       for(int i = 0; i<numRows; i++)
         {
-          if(lights[i][col] == true;
+          if(lights[i][col] == true)
             countLights++;
         }
       if(countLights%2 == 0)
@@ -44,7 +44,7 @@ public class LightBoard
       int countThreeLights = 0;
       for(int i = 0; i<numRows; i++)
         {
-          if(lights[i][col] == true;
+          if(lights[i][col] == true)
             countThreeLights++;
         }
       if(countLights%3 == 0)
