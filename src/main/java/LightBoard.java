@@ -47,7 +47,7 @@ public class LightBoard
           if(lights[i][col] == true)
             countThreeLights++;
         }
-      if(countLights%3 == 0)
+      if(countThreeLights%3 == 0)
         return true;
     }
     return(lights[row][col]);
