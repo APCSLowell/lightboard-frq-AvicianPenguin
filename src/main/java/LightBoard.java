@@ -43,7 +43,7 @@ public class LightBoard
     else if (lights[row][col] == false)
     {
       int countThreeLights = 0;
-      for(int r = 0; r<lights.length; i++)
+      for(int r = 0; r<lights.length; r++)
         {
           if(lights[r][col] == true)
             countThreeLights++;
