@@ -15,10 +15,8 @@ public class LightBoard
     {
       for(int j = 0; i<numCols; j++)
       {
-        if(Math.random()<0.4)
-          lights[i][j] = true;
-        else
-          lights[i][j] = false;
+        double rnd = Math.random();
+        lights[i][j] = rnd<0.4;
       }
     }
   }
