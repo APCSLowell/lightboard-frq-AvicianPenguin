@@ -40,12 +40,12 @@ public class LightBoard
       if(countLights%2 == 0)
         return false;
     }
-    else
+    else if (lights[row][col] == false)
     {
       int countThreeLights = 0;
-      for(int i = 0; i<lights.length; i++)
+      for(int r = 0; r<lights.length; i++)
         {
-          if(lights[i][col] == true)
+          if(lights[r][col] == true)
             countThreeLights++;
         }
       if(countThreeLights%3 == 0)
